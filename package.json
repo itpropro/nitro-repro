@@ -10,16 +10,15 @@
     "build": "nitro build"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
+    "@antfu/eslint-config-ts": "^0.30.1",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "eslint": "^8.25.0",
-    "nitropack": "^0.6.0",
-    "typescript": "^4.8.4",
-    "@antfu/eslint-config-ts": "^0.27.0"
+    "nitropack": "^1.0.0",
+    "typescript": "^4.9.3"
   },
   "dependencies": {
-    "mongodb-memory-server": "^8.9.3",
-    "mongodb": "^4.11.0"
+    "@azure/identity": "^3.1.0",
+    "@azure/web-pubsub": "^1.0.0"
   }
 }
